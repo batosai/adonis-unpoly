@@ -1,0 +1,5 @@
+.editorconfig
+.github
+node_modules
+
+tsconfig.json
