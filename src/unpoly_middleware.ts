@@ -7,6 +7,7 @@ export default class DefaultMiddleware {
      * Sharing up with templates
      */
     if ('view' in ctx) {
+      // @ts-ignore
       ctx.view.share({
         up: ctx.up,
       })
