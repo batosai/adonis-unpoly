@@ -88,14 +88,7 @@ export default class Up {
   }
 
   getTarget() {
-    return this.getProperty('X-Up-Target') || 'body'
-  }
-
-  targetIncludes(selector: string): boolean {
-    const target = this.getTarget()
-      .split(',')
-      .map((value) => value.trim())
-    return target.includes('body') ? true : target.includes(selector)
+    return this.getProperty('X-Up-Target')
   }
 
   getTitle() {
