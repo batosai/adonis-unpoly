@@ -91,6 +91,19 @@ export default class Up {
     return this.getProperty('X-Up-Target')
   }
 
+  targetIncludes(selector: string): boolean {
+    const target = this.getTarget()
+
+    if (target) {
+      return target
+        .split(',')
+        .map((value) => value.trim())
+        .includes(selector)
+    }
+
+    return false
+  }
+
   getTitle() {
     return this.getProperty('X-Up-Title')
   }
