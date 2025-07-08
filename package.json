@@ -35,12 +35,12 @@
   },
   "devDependencies": {
     "@adonisjs/assembler": "^7.8.2",
-    "@adonisjs/core": "^6.17.1",
-    "@adonisjs/prettier-config": "^1.4.0",
-    "@adonisjs/tsconfig": "^1.4.0",
-    "@types/node": "^22.10.7",
-    "prettier": "^3.4.2",
-    "typescript": "^5.7.3"
+    "@adonisjs/core": "^6.19.0",
+    "@adonisjs/prettier-config": "^1.4.5",
+    "@adonisjs/tsconfig": "^1.4.1",
+    "@types/node": "^24.0.11",
+    "prettier": "^3.6.2",
+    "typescript": "^5.8.3"
   },
   "prettier": "@adonisjs/prettier-config",
   "publishConfig": {
